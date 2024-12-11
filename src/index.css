@@ -1,0 +1,179 @@
+:root {
+  --primary-color: #000000;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #495057 !important;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.titlefilm {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.imgBlock {
+  min-height: 450px;
+  max-height: 450px;
+  padding: 1.25rem;
+}
+
+.imgBlock img {
+  height: 25em;
+  border: 1px solid black;
+  padding: 2px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.imgBlock:hover .image {
+  opacity: 0.3;
+}
+
+.imgBlock:hover .titlefilm {
+  opacity: 1;
+}
+
+header .bg-gradient {
+  background: rgb(216, 216, 216);
+}
+
+body {
+  /* background: url(./BG.png); */
+  background-size: cover;
+}
+
+header .navbar {
+  padding: 20px 0 0;
+}
+
+header .navbar-brand {
+  padding: 0;
+  z-index: 1;
+  width: 213px;
+  height: 109px;
+  background-color: #1a4b84;
+}
+
+header .navbar-brand img {
+  width: 56px;
+}
+
+img {
+  max-width: 100%;
+}
+
+header h3 {
+  font: normal normal 600 18px/27px Oswald;
+  color: #fff;
+}
+
+header h4 {
+  font: normal normal 600 18px/28px Oswald;
+  letter-spacing: 0.36px;
+  color: #191919;
+  text-transform: uppercase;
+}
+
+header p {
+  font: 600 12px/15px Poppins;
+  letter-spacing: 0.24px;
+  color: #191919;
+}
+
+.ReactTitle {
+  background-color: #838383;
+  height: 50px;
+  font: normal normal 600 19px/27px Oswald;
+  letter-spacing: 0.38px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.ReactTitle img {
+  width: 25px;
+  margin-right: 10px;
+}
+
+.link {
+  background-color: rgba(0, 0, 0, 0.09);
+  font: normal normal medium 12px/15px Poppins;
+  letter-spacing: 0.24px;
+  height: 40px;
+  padding: 10px 10px;
+}
+
+.link a {
+  color: #055ba6;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+.footer-dark {
+  background-color: #1a4b84;
+  color: #fff;
+}
+
+.toggle-currency {
+  font-size: 20px;
+}
+
+footer {
+  font: normal normal 600 12px/19px Oswald;
+  letter-spacing: 0.24px;
+  color: #ffffff;
+}
